@@ -1,17 +1,22 @@
 [workspace.package]
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
 
 [workspace]
 members = ["jsonrpsee-ts-macros"]
 
 [workspace.dependencies]
-jsonrpsee-ts-macros = { path = "jsonrpsee-ts-macros" }
+jsonrpsee-ts-macros = { version = "0.1.0", path = "jsonrpsee-ts-macros" }
 
 [package]
 name = "jsonrpsee-ts"
 version.workspace = true
 edition.workspace = true
+description = "Generate rpckit-compatible TypeScript schemas from jsonrpsee RPC traits"
+documentation = "https://docs.rs/jsonrpsee-ts"
+readme = "README.md"
+license.workspace = true
 
 [dependencies]
 jsonrpsee-ts-macros.workspace = true

@@ -2,6 +2,9 @@
 name = "jsonrpsee-ts-macros"
 version.workspace = true
 edition.workspace = true
+description = "Procedural macros for jsonrpsee-ts"
+documentation = "https://docs.rs/jsonrpsee-ts-macros"
+license.workspace = true
 
 [lib]
 proc-macro = true
