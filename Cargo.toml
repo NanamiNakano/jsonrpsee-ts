@@ -15,6 +15,8 @@ version.workspace = true
 edition.workspace = true
 description = "Generate rpckit-compatible TypeScript schemas from jsonrpsee RPC traits"
 documentation = "https://docs.rs/jsonrpsee-ts"
+homepage = "https://github.com/NanamiNakano/jsonrpsee-ts"
+repository = "https://github.com/NanamiNakano/jsonrpsee-ts"
 readme = "README.md"
 license.workspace = true
 

@@ -4,6 +4,8 @@ version.workspace = true
 edition.workspace = true
 description = "Procedural macros for jsonrpsee-ts"
 documentation = "https://docs.rs/jsonrpsee-ts-macros"
+homepage = "https://github.com/NanamiNakano/jsonrpsee-ts"
+repository = "https://github.com/NanamiNakano/jsonrpsee-ts"
 license.workspace = true
 
 [lib]
